@@ -1,0 +1,46 @@
+{
+  "name": "splice-react-hooks",
+  "version": "1.0.0",
+  "description": "Example template",
+  "main": "build/index.js",
+  "module": "build/index.es.js",
+  "jsnext:main": "build/index.es.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "author": "Author Name <author@email.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<REPOSITORY_NAME>/<PROJECT_NAME>"
+  },
+  "bugs": {
+    "url": "https://github.com/<REPOSITORY_NAME>/<PROJECT_NAME>/issues"
+  },
+  "homepage": "https://github.com/<REPOSITORY_NAME>/<PROJECT_NAME>#readme",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.4",
+    "@types/react-dom": "^16.9.1",
+    "@types/react-test-renderer": "^16.9.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-scripts-ts": "^3.1.0",
+    "react-test-renderer": "^16.10.1",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-progress": "^1.1.1",
+    "typescript": "^3.6.3",
+    "rollup": "^1.22.0",
+    "rollup-plugin-typescript2": "^0.24.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "files": [
+    "build"
+  ]
+}
