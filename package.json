@@ -7,7 +7,8 @@
   "jsnext:main": "build/index.es.js",
   "scripts": {
     "build": "rollup -c",
-    "watch": "rollup -cw"
+    "watch": "rollup -cw",
+    "lint": "eslint . --ext .ts,.tsx"
   },
   "author": "Author Name <author@email.com>",
   "repository": {
@@ -22,6 +23,12 @@
   "devDependencies": {
     "@types/react": "^16.9.4",
     "@types/react-dom": "^16.9.1",
+    "@typescript-eslint/eslint-plugin": "^2.3.2",
+    "@typescript-eslint/parser": "^2.3.2",
+    "eslint": "^6.5.1",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "prettier": "^1.18.2",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",
     "rollup": "^1.22.0",
